@@ -1,0 +1,8 @@
+streamlit
+scikit-learn
+tensorflow
+shap
+pandas
+plotly
+streamlit-authenticator
+joblib
