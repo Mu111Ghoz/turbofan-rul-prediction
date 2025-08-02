@@ -2,6 +2,8 @@
 
 This Streamlit application predicts the **Remaining Useful Life (RUL)** of aircraft turbofan engines using machine learning models trained on NASA's C-MAPSS dataset. It features explainability tools (SHAP), model comparison, and multiple input modes for real-time and batch predictions.
 
+For a full step by step review of Project stages, Please review [4_Model_Report.ipynb](C:/Users/Administrator/Downloads/Python/Python_Data_Project/turbofan-rul-prediction/CMAPSSData/notebooks)
+
 ---
 
 ## 📊 Features
