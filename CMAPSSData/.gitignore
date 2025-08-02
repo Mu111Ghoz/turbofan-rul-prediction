@@ -1,0 +1,9 @@
+*.pkl
+*.h5
+*.csv
+*.log
+*.toml
+__pycache__/
+.env
+*.pyc
+.DS_Store
