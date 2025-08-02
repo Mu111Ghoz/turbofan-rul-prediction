@@ -12,14 +12,14 @@ from pathlib import Path
 import os
 
 # === File Paths ===
-BASE = "C:/Users/Administrator/Downloads/Python/Python_Data_Project/turbofan-rul-prediction/CMAPSSData/App"
-MODEL_PATH = f"{BASE}/model/keras_lstm_tuned.h5"
-SCALER_PATH = f"{BASE}/model/scaler.pkl"
-SAMPLE_INPUT = f"{BASE}/sample_input.csv"
-MULTI_ENGINE_INPUT = f"{BASE}/multi_engine_test_input.csv"
-MODEL_METRICS_PATH = f"{BASE}/model_metrics.json"
-SHAP_SAMPLE_PATH = f"{BASE}/sample_shap_values.csv"
-IMAGE_PATH = f"{BASE}/assets/hytec-illustration.png"
+# Update for Streamlit Cloud Solution
+MODEL_PATH = os.path.join("model", "keras_lstm_tuned.h5")
+SCALER_PATH = os.path.join("model", "scaler.pkl")
+SAMPLE_INPUT = os.path.join("model", "sample_input.csv")
+MULTI_ENGINE_INPUT = os.path.join("model", "multi_engine_test_input.csv")
+MODEL_METRICS_PATH = os.path.join("model", "model_metrics.json")
+SHAP_SAMPLE_PATH = os.path.join("model", "sample_shap_values.csv")
+IMAGE_PATH = os.path.join("model", "hytec-illustration.png")
 
 # === UI Config ===
 st.set_page_config(page_title="Turbofan Engine RUL Predictor", layout="wide")

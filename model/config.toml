@@ -1,0 +1,12 @@
+[credentials]
+names = ["Engineer One", "Analyst Two"]
+usernames = ["engineer1", "analyst2"]
+hashed_passwords = [
+  "$pbkdf2-sha256$29000$abc123...",  # Replace with real hash
+  "$pbkdf2-sha256$29000$def456..."
+]
+
+[cookie]
+name = "rul_app"
+key = "auth_cookie"
+expiry_days = 1

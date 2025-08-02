@@ -1,0 +1,18 @@
+{
+    "LSTM_Keras": {
+        "MAE": 28.91,
+        "RMSE": 39.53
+    },
+    "LSTM_PyTorch": {
+        "MAE": 30.68,
+        "RMSE": 42.05
+    },
+    "XGBoost": {
+        "MAE": 34.28,
+        "RMSE": 45.64
+    },
+    "RandomForest": {
+        "MAE": 34.51,
+        "RMSE": 45.95
+    }
+}
