@@ -13,7 +13,7 @@ import os
 
 # === File Paths ===
 # Update for Streamlit Cloud Solution
-MODEL_PATH = os.path.join("model", "keras_lstm_tuned.h5")
+MODEL_PATH = os.path.join("model", "keras_lstm_legacy.h5")
 SCALER_PATH = os.path.join("model", "scaler.pkl")
 SAMPLE_INPUT = os.path.join("model", "sample_input.csv")
 MULTI_ENGINE_INPUT = os.path.join("model", "multi_engine_test_input.csv")
